@@ -1,0 +1,12 @@
+    # Configurações do Agente
+    token = "ct_px_dbacfe474502bbcf46535c25dccc455e"
+    server = "localhost:50051"
+
+    # Configurações do MinIO / S3
+    [storage]
+    endpoint = "https://anjgdeqdloviwtgaqvub.storage.supabase.co/storage/v1/s3"
+    access_key = "aa51e39feb79e1e94ad26376a5d1049f"
+    secret_key = "c88abab6a5ee8330b2df9bbe6417cdbb5c1935ebe785fa9204d4192faef96447"
+    bucket = "agent-client"
+    region = "sa-east-1"
+    use_ssl = true
